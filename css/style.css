@@ -41,13 +41,13 @@
 .menu-header {
     position: absolute;
     top: 3.5vh;
-    left: 56.8vmax;
+    left: 45%;
     
 }
 .menu-header a {
     padding-top: 3.5vh;
     font-weight: 600;
-    margin-left: 0.9rem;
+    margin-left: 2.5rem;
     font-size: 1.1rem;
 }
 .sessao-principal {
@@ -61,21 +61,21 @@
 }
 .sessao-principal h1 {
     text-align: left;
-    font-size: 57px;
+    font-size: 46px;
     font-weight: 610;
     margin: 20px 0 24px;
     width: 45%;
 }
 .slogan p {
     font-size: 24px;
-    line-height: 2rem;
+    line-height: 1.5rem;
     align-items: left;
-    width: 46%;
+    width: 35%;
 }
 .img-section {
     position: absolute;
     top: -2vh;
-    left: 52.5vmax;
+    left:43.2vmax;
     opacity: 0.3;
 }
 .img-section img {
@@ -86,7 +86,7 @@
 }
 .container {
     position: absolute;
-    left:51.2vmax;
+    left:41.2vmax;
     width: 535px;
     height: 307.39px;
     border-radius: 20px;
