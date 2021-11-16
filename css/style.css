@@ -61,7 +61,7 @@
 }
 .slogan h1 {
     text-align: left;
-    font-size: clamp(1.5rem, 3em + 1vw, 5.5rem);
+    font-size: clamp(1.5rem, 2em + 1vw, 5.5rem);
     font-weight: 610;
     margin: 20px 0 24px;
     width: 45%;
