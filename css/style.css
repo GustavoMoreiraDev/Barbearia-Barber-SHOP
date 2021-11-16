@@ -22,7 +22,6 @@
     position: absolute;
     top: 0;
     width: 100%;
-    max-width: 100%;
     object-fit: cover;
     background: #a17b10e3;
     height: 10vh;
@@ -42,7 +41,7 @@
 .menu-header {
     display: flex;
     justify-content: right;
-    margin-right: 2rem;
+    margin-right: 8rem;
     
 }
 .menu-header a {
@@ -68,7 +67,7 @@
     width: 45%;
 }
 .slogan p {
-    font-size: 24px;
+    font-size: 2.5rem;
     line-height: 2.2rem;
     align-items: left;
     width: 45%;
@@ -76,7 +75,7 @@
 .img-section {
     position: absolute;
     top: -2vh;
-    left:54.2vmax;
+    left:57%;
     opacity: 0.3;
 }
 .img-section img {
@@ -88,8 +87,8 @@
 .container {
     position: absolute;
     left:52.2vmax;
-    width: 535px;
-    height: 307.39px;
+    width: 39%;
+    height:40vh;
     border-radius: 20px;
     top: 33vh;
     background: #352f2f8c;
@@ -97,42 +96,36 @@
 }
 
 .container h3{
-    position: absolute;
+    text-align:center;
     font-size: 1.2rem;
-    left: 28%;
-    top: 8%;
+    margin-top: 4vh;
 }
 .container .input-fild #nome {
     position: absolute;
     top: 15%;
     width: 90%;
-    padding: 18px;
+    padding: 3%;
     border-radius: 20px;
     margin: 5%;
     color: black;
 }
 .container .input-fild #telefone {
     position: absolute;
-    top: 40%;
+    top: 39%;
     width: 90%;
-    padding: 18px;
+    padding: 3%;
     border-radius: 20px;
     margin: 5%;
     color: black;
-}
-.container label {
-    position: absolute;
-    top: 91%;
-    left: 12.5vmax;
 }
 .container #butom {
     cursor: pointer;
     position: absolute;
     text-align: center;
     background: rgba(211, 139, 7, 0.801);
-    top: 72%;
+    top: 73%;
     left: 1.5vmax;
     width: 90%;
-    padding: 14px;
+    padding: 2%;
     border-radius: 20px;
 }
