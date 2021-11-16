@@ -67,7 +67,7 @@
     width: 45%;
 }
 .slogan p {
-    font-size: clamp(1rem, 1em + 1vw, 4.5rem);
+    font-size: clamp(1rem, 1em + 1vw, 3.5rem);
     line-height: 2.7rem;
     align-items: left;
     width: 48%;
