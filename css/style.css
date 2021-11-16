@@ -22,6 +22,7 @@
     position: absolute;
     top: 0;
     width: 100%;
+    max-width: 100%;
     object-fit: cover;
     background: #a17b10e3;
     height: 10vh;
@@ -41,7 +42,7 @@
 .menu-header {
     position: absolute;
     top: 3.5vh;
-    left: 45%;
+    left: 55%;
     
 }
 .menu-header a {
@@ -61,21 +62,21 @@
 }
 .sessao-principal h1 {
     text-align: left;
-    font-size: 46px;
+    font-size: 52px;
     font-weight: 610;
     margin: 20px 0 24px;
     width: 45%;
 }
 .slogan p {
     font-size: 24px;
-    line-height: 1.5rem;
+    line-height: 2.2rem;
     align-items: left;
-    width: 35%;
+    width: 45%;
 }
 .img-section {
     position: absolute;
     top: -2vh;
-    left:43.2vmax;
+    left:54.2vmax;
     opacity: 0.3;
 }
 .img-section img {
@@ -86,11 +87,11 @@
 }
 .container {
     position: absolute;
-    left:41.2vmax;
+    left:52.2vmax;
     width: 535px;
     height: 307.39px;
     border-radius: 20px;
-    top: 32vh;
+    top: 33vh;
     background: #352f2f8c;
     border: #c4bbbb solid 2px;
 }
