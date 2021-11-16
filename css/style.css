@@ -40,16 +40,16 @@
     border-radius: 20px;
 }
 .menu-header {
-    position: absolute;
-    top: 3.5vh;
-    left: 55%;
+    display: flex;
+    justify-content: right;
+    margin-right: 2rem;
     
 }
 .menu-header a {
     padding-top: 3.5vh;
     font-weight: 600;
-    margin-left: 2.5rem;
     font-size: 1.1rem;
+    margin-right: 2rem;
 }
 .sessao-principal {
     position: absolute;
