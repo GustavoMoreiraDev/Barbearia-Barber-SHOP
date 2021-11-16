@@ -41,13 +41,13 @@
 .menu-header {
     display: flex;
     justify-content: right;
-    margin-right: 8rem;
+    margin-right: 8%;
     
 }
 .menu-header a {
     padding-top: 3.5vh;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: clamp(16px, 0.3em + 1vw, 2rem);
     margin-right: 2rem;
 }
 .sessao-principal {
@@ -59,28 +59,27 @@
     position: relative;
     top: 8vh;
 }
-.sessao-principal h1 {
+.slogan h1 {
     text-align: left;
-    font-size: 46px;
+    font-size: clamp(1.5rem, 3em + 1vw, 5.5rem);
     font-weight: 610;
     margin: 20px 0 24px;
     width: 45%;
 }
 .slogan p {
-    font-size: 2.5rem;
-    line-height: 2.2rem;
+    font-size: clamp(1rem, 1em + 1vw, 4.5rem);
+    line-height: 2.7rem;
     align-items: left;
-    width: 45%;
+    width: 48%;
 }
 .img-section {
     position: absolute;
-    top: -2vh;
-    left:57%;
+    left:54.2vmax;
     opacity: 0.3;
 }
 .img-section img {
     object-fit: cover;
-    width: 470px;
+    width: 32vmax;
     height: 30vh;
     border-radius: 15px;
 }
@@ -88,7 +87,7 @@
     position: absolute;
     left:52.2vmax;
     width: 39%;
-    height:40vh;
+    height:48vh;
     border-radius: 20px;
     top: 33vh;
     background: #352f2f8c;
@@ -97,7 +96,7 @@
 
 .container h3{
     text-align:center;
-    font-size: 1.2rem;
+    font-size: clamp(10px, 0.5em + 1vw, 3.5rem);
     margin-top: 4vh;
 }
 .container .input-fild #nome {
